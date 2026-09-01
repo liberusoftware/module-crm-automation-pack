@@ -1,1 +1,5 @@
-{"name":"liberusoftware/module-crm-automation-pack","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\AutomationPack\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\AutomationPack\\AutomationPackServiceProvider"]},"liberu":{"name":"crm-automation-pack"}}}
+{"name":"liberusoftware/module-crm-automation-pack","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\AutomationPack\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\AutomationPack\\AutomationPackServiceProvider"]},"liberu":{"name":"crm-automation-pack"}},
+    "require": {
+        "liberusoftware/module-organizations-teams": "^1.0"
+    }
+}
