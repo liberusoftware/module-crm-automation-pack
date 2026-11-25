@@ -1,16 +1,19 @@
 <?php
 
-namespace App\Services;
+namespace Liberu\CRM\AutomationPack\Services;
 
-use App\Models\Company;
-use App\Models\Contact;
-use App\Models\Deal;
-use App\Models\Lead;
-use App\Models\Opportunity;
-use App\Models\Task;
-use App\Models\Workflow;
-use App\Models\WorkflowAction;
-use App\Models\WorkflowExecution;
+
+use Liberu\CRM\EmailProductivity\Services\EmailTrackingService;
+use Liberu\CRM\Telephony\Services\TwilioService;
+use Liberu\CRM\Core\Models\Company;
+use Liberu\CRM\Core\Models\CrmContact as Contact;
+use Liberu\CRM\SalesWorkspace\Models\Deal;
+use Liberu\CRM\LeadCapture\Models\Lead;
+use Liberu\CRM\SalesWorkspace\Models\Opportunity;
+use Liberu\CRM\Activities\Models\Task;
+use Liberu\CRM\AutomationPack\Models\Workflow;
+use Liberu\CRM\AutomationPack\Models\WorkflowAction;
+use Liberu\CRM\AutomationPack\Models\WorkflowExecution;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Uri;

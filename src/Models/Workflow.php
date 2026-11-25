@@ -2,9 +2,13 @@
 
 declare(strict_types=1);
 
-namespace App\Models;
+namespace Liberu\CRM\AutomationPack\Models;
 
-use App\Traits\IsTenantModel;
+
+use Liberu\CRM\Core\Models\CrmContact as Contact;
+use Liberu\CRM\SalesWorkspace\Models\Deal;
+use Liberu\CRM\LeadCapture\Models\Lead;
+use Liberu\Foundation\Organizations\Traits\IsTenantModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;

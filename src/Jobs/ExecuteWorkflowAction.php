@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Jobs;
+namespace Liberu\CRM\AutomationPack\Jobs;
 
-use App\Jobs\Concerns\TenantAware;
-use App\Models\Lead;
+use Liberu\Foundation\SchedulerQueues\Jobs\Concerns\TenantAware;
+use Liberu\CRM\LeadCapture\Models\Lead;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

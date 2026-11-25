@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Liberu\CRM\AutomationPack\Http\Controllers;
 
-use App\Models\Workflow;
+
+use Illuminate\Routing\Controller;
+use Liberu\CRM\AutomationPack\Models\Workflow;
 use Illuminate\Http\Request;
 
 class WorkflowController extends Controller

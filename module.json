@@ -2,7 +2,7 @@
   "name": "crm-automation-pack",
   "display_name": "CRM Automation Pack",
   "description": "CRM recipes, triggers, approvals, simulations and enrollments",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "capability",
   "provider": "Liberu\\CRM\\AutomationPack\\AutomationPackServiceProvider",
   "requires": {
